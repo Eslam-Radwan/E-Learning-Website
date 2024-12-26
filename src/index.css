@@ -5,3 +5,11 @@
   font-family: "Poppins", serif;
 }
 
+Button {
+  width: 150px;
+  height: 60px;
+  border-color: transparent;
+  color: white;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.3);
+}

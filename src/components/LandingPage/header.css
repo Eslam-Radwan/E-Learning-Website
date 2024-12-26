@@ -6,19 +6,15 @@
     margin-right: 10px
 }
 
-.container {
+.landing__header__container {
     width: 90vw;
     padding: 30px;
     margin-left: auto;
     margin-right: auto;
     height: 100%;
-    /* overflow: hidden; */
 }
 
-main {
-    overflow: hidden;
-}
-header {
+.landing__header {
     display: flex;
     flex-direction: column;
     background-color: #49BBBD;
@@ -31,11 +27,11 @@ header {
 }
 
 /* Nav Bar Styling */
-.navBar {
+.landing__header__navBar {
     display: flex;
     justify-content: space-between;
 }
-.navBar ul {
+.landing__header__navBar ul {
     display: flex;
     list-style: none;
     justify-content: space-evenly;
@@ -46,7 +42,7 @@ header {
     width: 100%;
     flex-shrink: 3;
 }
-.navBar button {
+.landing__header__navBar button {
     height: 40px;
     width: 100px;
 }
@@ -136,14 +132,7 @@ header {
 .leftSec {
     margin:100px 50px;
 }
-Button {
-    width: 150px;
-    height: 60px;
-    border-color: transparent;
-    color: white;
-    border-radius: 50px;
-    background-color: rgba(255, 255, 255, 0.3);
-}
+
 .playButton {
     width: 50px;
     height: 50px;
