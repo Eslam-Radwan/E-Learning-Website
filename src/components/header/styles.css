@@ -1,0 +1,87 @@
+/* General Header Styles */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 120px;
+    background-color: #fff;
+}
+
+/* Logo and Account Section */
+.header .wrap {
+    display: flex;
+    align-items: center;
+}
+
+/* Navigation Menu */
+.header ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.header ul li {
+    font-size: 18px;
+}
+
+.header li a {
+    text-decoration: none;
+    color: #5B5B5B;
+}
+
+/* Account Section */
+.header .account {
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.header .account img {
+    margin-right: 10px;
+    width: 30px;
+}
+
+/* Hamburger Menu (Hidden by Default) */
+.header .menu-toggle {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .header {
+        padding: 15px 30px;
+        position: relative;
+    }
+
+    .header ul {
+        display: none;
+    }
+
+    .header ul li {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .header .account {
+        margin-left: 0;
+        font-size: 14px;
+    }
+}
+
+/* Extra Small Screens */
+@media (max-width: 480px) {
+    .header {
+        padding: 10px 20px;
+    }
+
+    .header ul li {
+        font-size: 14px;
+    }
+
+    .header .account {
+        font-size: 12px;
+    }
+}
