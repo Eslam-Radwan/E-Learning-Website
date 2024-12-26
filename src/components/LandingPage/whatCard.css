@@ -1,0 +1,42 @@
+.instructor {
+    background: url(/public/images/instructor.png);
+}
+
+.student {
+    background: url(/public/images/students.png);
+}
+.instructor button {
+    background-color:  transparent;
+    border: 1px solid white;
+}
+
+.student button {
+background-color: rgba(35, 191, 238, 0.7);
+}
+
+.whatCard {
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 300px;
+    border-radius: 30px;
+}
+.whatCard button {
+    margin-top: 10px;
+    width: 200px;
+}
+
+.blackCover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 30px;
+}
+.whatCard h3 {
+    font-weight: 400;
+}
