@@ -1,0 +1,528 @@
+/* General Pricing Section */
+.pricing {
+    padding: 50px 20px;
+}
+
+/* Title Styling */
+.pricing > h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #49BBBD;
+    font-size: 48px;
+}
+
+/* Plans Container */
+.pricing .plans {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* Individual Plan Styling */
+.pricing .plans .plan {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 12px;
+    max-width: 350px;
+    min-width: 280px;
+    width: 100%;
+}
+.pricing .plans .plan > div{
+    padding-bottom: 30px;
+}
+
+
+.pricing .plans .plan .offer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.pricing .plans .plan .offer span{
+    font-size: 16px;
+    letter-spacing: 2.5px;
+    border: 1px solid #6C5CE7;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+
+/* Highlighted Best Plan */
+.pricing .plans .best {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1), 
+                -4px 0 20px rgba(0, 0, 0, 0.1), 
+                4px 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Plan Heading */
+.pricing .plans .plan p {
+    font-size: 18px;
+    color: #49BBBD;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.pricing .plans .plan h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.pricing .plans .plan h1 span {
+    font-size: 12px;
+    letter-spacing: 2.5px;
+    margin-left: 5px;
+}
+
+/* Plan List */
+.pricing .plans .plan ul {
+    list-style: none;
+}
+
+.pricing .plans .plan ul li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.pricing .plans .plan ul li :first-child {
+    color: #ADADAD;
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+.pricing .plans .best ul li :first-child {
+    color: #FDCB6E;
+}
+
+/* Plan Button */
+.pricing .plans .plan button {
+    border: 1px solid #ADADAD;
+    color: #49BBBD;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 15px;
+    background-color: transparent;
+}
+.pricing .plans .best button{
+    color: white;
+    background-color: #49BBBD;
+}
+
+/* Responsive Styles */
+
+/* Tablet Devices (768px and below) */
+@media (max-width: 768px) {
+    .pricing {
+        padding: 40px 10px;
+    }
+
+    .pricing > h1 {
+        font-size: 36px;
+        margin-bottom: 40px;
+    }
+
+    .pricing .plans {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pricing .plans .plan {
+        max-width: 100%;
+    }
+}
+
+/* Mobile Devices (480px and below) */
+@media (max-width: 480px) {
+    .pricing > h1 {
+        font-size: 28px;
+    }
+
+    .pricing .plans .plan {
+        padding: 16px;
+    }
+
+    .pricing .plans .plan h1 {
+        font-size: 24px;
+    }
+
+    .pricing .plans .plan p {
+        font-size: 16px;
+    }
+
+    .pricing .plans .plan button {
+        font-size: 16px;
+        padding: 8px 12px;
+    }
+}
+
+
+/* Accordion Section General Styling */
+.membership .accordion {
+    padding: 70px 120px;
+}
+
+/* Accordion Title */
+.membership .accordion h2 {
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+/* Accordion List */
+.membership .accordion ul {
+    list-style: none;
+}
+
+.membership .accordion ul li {
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(105, 105, 132, 0.5);
+}
+
+/* Accordion Item */
+.membership .accordion ul li .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.membership .accordion ul li .item :last-child {
+    cursor: pointer;
+}
+
+/* Accordion Name Section */
+.membership .accordion ul li .name {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.membership .accordion ul li h3 {
+    color: #2D3436;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.membership .accordion ul li .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #49BBBD;
+}
+
+/* Accordion Content */
+.membership .accordion ul li p {
+    color: #696984;
+    font-size: 14px;
+    padding: 15px 40px;
+}
+
+/* Tablet Devices (768px and below) */
+@media (max-width: 768px) {
+    .membership .accordion {
+        padding: 50px 40px;
+    }
+
+    .membership .accordion h2 {
+        font-size: 28px;
+        margin-bottom: 50px;
+    }
+
+    .membership .accordion ul li .name {
+        gap: 10px;
+    }
+
+    .membership .accordion ul li h3 {
+        font-size: 16px;
+    }
+
+    .membership .accordion ul li p {
+        font-size: 13px;
+        padding: 10px 20px;
+    }
+}
+
+/* Mobile Devices (480px and below) */
+@media (max-width: 480px) {
+    .membership .accordion {
+        padding: 30px 20px;
+    }
+
+    .membership .accordion h2 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .membership .accordion ul li {
+        padding: 15px 0;
+    }
+
+    .membership .accordion ul li .name {
+        gap: 8px;
+    }
+
+    .membership .accordion ul li h3 {
+        font-size: 14px;
+    }
+
+    .membership .accordion ul li .circle {
+        width: 15px;
+        height: 15px;
+    }
+
+    .membership .accordion ul li p {
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+}
+
+
+
+
+
+
+
+.reviews{
+    background-color: rgba(157, 204, 255, 0.2);
+}
+
+
+.reviews .container{
+    padding: 70px 120px 150px;
+    position: relative;
+}
+
+.reviews h2{
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+
+.reviews .boxes{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.reviews .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px;
+    border-radius: 12px;
+    background-color: white;
+}
+
+
+
+.reviews .box .image{
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    background-color: #d9d9d9;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.reviews .box .image img{
+    width: 100px;
+    position: absolute;
+    bottom:-10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.reviews .box h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+
+
+.reviews .box p{
+    text-align: center;
+    color: #696984;
+}
+
+
+.reviews .app{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    padding: 70px 100px;
+    width: 85%;
+    /* margin: 0 120px; */
+    background-color: #252641;
+    border-radius: 30px;
+}
+
+.reviews .app h2{
+    font-size: 36px;
+    color: white;
+    margin: 0;
+    text-wrap: nowrap;
+}
+
+.reviews .app .buttons{
+    display: flex;
+    gap: 30px;
+}
+
+
+
+.reviews .app .buttons button{
+    color: white;
+    background-color: #49BBBD;  
+    border: none;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+    border-radius: 12px;
+}
+
+.reviews .app .buttons .android{
+    background-color: #29B9E7;
+}
+
+
+
+@media (max-width: 768px) {
+    .membership .reviews .container {
+        padding: 50px 40px;
+    }
+
+    .membership .reviews h2 {
+        font-size: 28px;
+        margin-bottom: 50px;
+    }
+    .membership .reviews .app{
+        flex-direction: column;
+    }
+
+}
+
+/* Mobile Devices (480px and below) */
+@media (max-width: 480px) {
+    .membership .reviews .container {
+        padding: 30px 20px;
+    }
+
+    .membership .reviews h2 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+}
+
+
+
+
+
+
+
+.apply{
+    padding: 240px 120px 170px;
+}
+
+
+.apply .boxes{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 80px;
+}
+
+.apply .boxes .box{
+    display: flex;
+    flex-direction: column;
+    padding: 60px 30px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1), 
+                -4px 0 5px rgba(0, 0, 0, 0.1), 
+                4px 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+
+
+.apply .boxes .box img {
+    width: 100%;
+}
+
+
+.apply .boxes .box h3{
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+
+.apply .boxes .box p{
+    color: #696984;
+    margin-bottom: 50px;
+}
+
+.apply .boxes .box button{
+    color: white;
+    background-color: #49BBBD;
+    padding: 15px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 12px;
+    align-self: flex-end;
+}
+
+@media (max-width: 768px) {
+    .membership .apply {
+        padding: 50px 40px;
+    }
+    .membership .app{
+        position: relative;
+        transform: translateX(-50%);
+        margin-top: 50px;
+
+    }
+    .membership .app h2{
+        font-size: 25px;
+    }
+
+    .reviews .app .buttons button{
+        font-size: 15px;
+    }
+
+}
+
+/* Mobile Devices (480px and below) */
+@media (max-width: 480px) {
+    .membership .apply {
+        padding: 30px 20px;
+    }
+
+    .membership .reviews h2 {
+        font-size: 20px;
+        margin-bottom: 30px;
+        width: 250px;
+    }
+
+    .apply .boxes .box {
+        padding: 30px 15px;
+        width:350px;
+    }
+
+    .apply .boxes .box img{
+        width: 200px;
+    }
+
+}
