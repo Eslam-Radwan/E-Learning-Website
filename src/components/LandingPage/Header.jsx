@@ -7,9 +7,9 @@ import './header.css'
 
 function Header(props) {
     return (
-        <header>
-            <div className='container'>
-                <div className='navBar'>
+        <header className='landing__header'>
+            <div className='landing__header__container'>
+                <div className='landing__header__navBar'>
                     <img src="/images/icons/logo.png" alt="" />
                     <div className="spacer"></div>
                     <ul>
