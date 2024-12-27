@@ -4,7 +4,7 @@ import './newsCard.css'
 function NewsCard(props) {
     return (
         <div className={`newsCard ${props.className}`}>
-            <div className={`newsCard__container ${props.class}`}>
+            <div className='newsCard__container'>
                 <div className="newsCard__container__leftSec">
                 <img src={props.img} alt="" />
                 <p>{props.category}</p>
