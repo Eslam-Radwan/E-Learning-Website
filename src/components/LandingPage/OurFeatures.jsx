@@ -87,6 +87,10 @@ function OurFeatures(props) {
                             <img src="images/userInterface5.png" alt="" />
                             <button>End Discussion</button>
                         </div>
+                        <div className='feature5__smallSec'>
+                            <h3>Private Discussion</h3>
+                            <p>Your video can't be seen by others</p>
+                        </div>
                         <div className="feature5__rightSec">
                             <article>
                                 <h3>One-on-One <span className='features__cards--diffColor'>Discussions</span></h3>
@@ -94,6 +98,9 @@ function OurFeatures(props) {
                             </article>
                         </div>
                     </div>
+                </div>
+                <div className='features__button'>
+                    <button >See more Features</button>
                 </div>
             </div>
         </div>

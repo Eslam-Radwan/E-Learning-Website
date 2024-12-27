@@ -1,0 +1,26 @@
+.newsCard__container {
+ display: flex;
+ flex-wrap: wrap;
+}
+.newsCard__container__leftSec {
+    position: relative;
+}
+.newsCard__container__leftSec p {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color:white;
+    background-color: #49BBBD;
+    border-radius: 20px;
+    padding: 10px;
+}
+.newsCard__container__rightSec{
+flex-grow: 1;
+flex-basis: 400px;
+color:#252641;
+max-width: 600px;
+padding: 30px;
+}
+.newsCard__container__rightSec p{
+    color: #696984;
+}

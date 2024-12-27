@@ -1,0 +1,28 @@
+
+.news__container {
+    width: 90vw;
+        padding: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 100%;
+}
+
+.news__container__cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    gap: 25px;
+}
+
+.news__container__card1{
+    grid-area: 1 / 2 / 3 / 4;
+}
+.news__container__card2{
+    grid-area: 3 / 2 / 5 / 4;
+}
+.news__container__card3{
+    grid-area: 5 / 2 / 7 / 4;
+}
+.news__container__card4{
+    grid-area: 1 / 1 / 7 / 2;
+}
