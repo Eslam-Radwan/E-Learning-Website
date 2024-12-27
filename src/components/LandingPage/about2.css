@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    padding: 10px 0 ;
 }
 .about2 h1 {
     color: #2F327D;
