@@ -1,0 +1,155 @@
+
+/* General */
+
+
+.margin-right-10 {
+    margin-right: 10px
+}
+
+.landing__header__container {
+    width: 90vw;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+
+.landing__header {
+    display: flex;
+    flex-direction: column;
+    background-color: #49BBBD;
+    height: 95vh;
+    width: 200vw;
+    border-radius: 0 0 50% 50%;
+    position:relative;
+    left: -50%;
+    color:white;
+    overflow: hidden;
+}
+
+/* Nav Bar Styling */
+.landing__header__navBar {
+    display: flex;
+    justify-content: space-between;
+}
+.landing__header__navBar ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    flex-basis: 100%;
+}
+
+.spacer {
+    width: 100%;
+    flex-shrink: 3;
+}
+.landing__header__navBar button {
+    height: 40px;
+    width: 100px;
+}
+.loginButton {
+    color: black;
+    background-color: white;
+}
+/* heading styling */
+
+.heading {
+    display: flex;
+}
+
+/* right section styling */
+
+.rightSec {
+    position: relative;
+    z-index: 1;
+    flex-grow: 1;
+    
+}
+
+.heading .rightSec > img {
+    width: 500px;
+    position: absolute;
+    z-index: -1;
+}
+
+.icon{
+    font-size: 30px;
+    margin-right: 10px;
+    color: #49BBBD;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: flex-start;
+    color: #545567;
+    border-radius: 20px;
+    padding: 20px 10px;
+}
+
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.analysisCard {
+    align-self: flex-end;
+    border-radius: 8px;
+    background-color: #F25471;
+    color:white;
+    padding: 10px;
+}
+.calenderCard {
+    align-self: flex-start;
+}
+.emailCard {
+    align-self: flex-end;
+}
+.emailIcon {
+    color: #F88C3D;
+}
+.userCard {
+    align-self: flex-start;
+    height: 120px;
+    width: 300px;
+    justify-content: space-between;
+}
+.userCard img {
+    width: 50px;
+}
+.userCard button{
+    background-color: #D8587E;
+    height: 30px;
+}
+
+/* left section styling */
+
+.studying {
+    color: #F48C06;
+}
+.leftSec {
+    margin:100px 50px;
+}
+
+.playButton {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    color: #49BBBD;
+    border-color: transparent;
+    text-align: center;
+}
+
+@media (max-width:920px) {
+    .leftSec {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .rightSec {
+        display: none;
+    }
+}

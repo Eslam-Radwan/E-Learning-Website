@@ -1,0 +1,41 @@
+
+
+.testLeftSec__container {
+    width: 500px;
+}
+.testLeftSec__container > * {
+margin-bottom: 20px;
+color: #2F327D;
+}
+
+.testLeftSec__container h3 {
+font-size:15px;
+font-weight: 300;
+width:100%;
+}
+
+.testLeftSec__container h3::before {
+    content: '';
+    width: 60px;
+    height: 2px;
+    background-color: black;
+    display: inline-block;
+    position: relative;
+    top: -5px;
+    margin-right:40px
+}
+
+.testLeftSec__container h4 {
+    font-size: 25px;
+}
+
+.testLeftSec__container p {
+    color: #696984;
+    font-size: 20px;
+}
+
+.testLeftSec__container button {
+    width: 300px;
+    color: #49BBBD;
+    border: 1px solid #49BBBD;
+}

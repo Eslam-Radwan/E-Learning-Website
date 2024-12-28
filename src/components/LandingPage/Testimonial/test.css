@@ -1,0 +1,11 @@
+.test__container {
+    width: 90vw;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+.test__container {
+    display: flex;
+    justify-content: space-around
+}
