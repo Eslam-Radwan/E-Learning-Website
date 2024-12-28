@@ -2,9 +2,9 @@ import React from 'react'
 import { HiOutlineSquares2X2 } from "react-icons/hi2";
 import { LuClock } from "react-icons/lu";
 import './styles.css'
-export default function GenericSection({ sectionName = "Mareting Articles" }) {
+export default function GenericSection({ sectionName = "Mareting Articles" , background = "white"}) {
     return (
-        <div className='generic-section'>
+        <div className='generic-section' style={{ backgroundColor: background }}>
             <div className='top'>
                 <h2>{sectionName}</h2>
                 <a>see all</a>
