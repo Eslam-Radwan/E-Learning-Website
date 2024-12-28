@@ -1,0 +1,242 @@
+/* General Styles */
+.course .continue-section {
+    background-color: rgba(157, 204, 255, 0.2);
+}
+
+.course .container {
+    padding: 70px 120px;
+}
+
+.course .container .continue {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.course .container .continue h2 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.course .container .continue a {
+    color: #49BBBD;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.course .container .courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.course .container .courses .course {
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    width: calc(33.33% - 40px);
+    box-sizing: border-box;
+}
+
+.course .container .courses .course > img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.course .container .courses .course h3 {
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.course .container .courses .course .account {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 20px;
+}
+
+.course .container .courses .course .account img {
+    width: 50px;
+}
+
+.course .container .courses .course .bar {
+    width: 100%;
+    position: relative;
+    background-color: #d9d9d9;
+    height: 8px;
+    border-radius: 2px;
+}
+
+.course .container .courses .course .bar::after {
+    content: '';
+    position: absolute;
+    background-color: #49BBBD;
+    width: 70%;
+    height: 100%;
+    border-radius: 2px;
+}
+
+.course .container .courses .course .lesson {
+    display: block;
+    text-align: end;
+    margin: 10px 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.502);
+}
+
+/* Media Queries */
+
+/* Tablets (768px and below) */
+@media (max-width: 768px) {
+    .course .container {
+        padding: 40px 20px;
+    }
+
+    .course .container .continue {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .course .container .continue h2 {
+        font-size: 28px;
+    }
+
+    .course .container .continue a {
+        font-size: 16px;
+    }
+
+    .course .container .courses {
+        gap: 30px;
+    }
+
+    .course .container .courses .course {
+        width: calc(50% - 20px);
+    }
+}
+
+/* Mobile (480px and below) */
+@media (max-width: 480px) {
+    .course .container {
+        padding: 20px 10px;
+    }
+
+    .course .container .continue h2 {
+        font-size: 24px;
+    }
+
+    .course .container .continue a {
+        font-size: 14px;
+    }
+
+    .course .container .courses {
+        gap: 20px;
+    }
+
+    .course .container .courses .course {
+        width: 100%;
+    }
+}
+
+/* Category Section */
+.category .grid {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 50px;
+}
+
+.category h2 {
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.category .grid .box {
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1),
+                0 8px 24px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+.category .grid .box:hover {
+    transform: translateY(-5px);
+}
+
+.category .grid .box .icon {
+    font-size: 30px;
+    padding: 30px 38px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.category .grid .box .green {
+    color: #49BBBD;
+    background-color: #49BBBD4D;
+}
+
+.category .grid .box .purple {
+    color: #5B72EE;
+    background-color: #5B72EE4D;
+}
+
+.category .grid .box .blue {
+    color: #9DCCFF;
+    background-color: #9DCCFF4D;
+}
+
+.category .grid .box .orange {
+    color: #F48C06;
+    background-color: #F48C064D;
+}
+
+.category .grid .box .red {
+    color: #EE645B;
+    background-color: #EE645B4D;
+}
+
+.category .grid .box .grey {
+    color: #252641;
+    background-color: #2526414D;
+}
+
+.category .grid .box h3 {
+    margin: 10px 0;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.category .grid .box p {
+    color: #696984;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Mobile (480px and below) */
+@media (max-width: 480px) {
+    .category .grid {
+        gap: 20px;
+    }
+
+    .category h2 {
+        font-size: 24px;
+    }
+
+    .category .grid .box h3 {
+        font-size: 18px;
+    }
+
+    .category .grid .box p {
+        font-size: 12px;
+    }
+}
