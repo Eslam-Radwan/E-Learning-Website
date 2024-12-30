@@ -1,12 +1,14 @@
 import React from 'react';
 import { useState } from 'react';
 import styles from './login.module.css'
+import { useNavigate } from "react-router-dom";
 
 
 function LoginForm(props) {
     const [dataInput, setDataInput] = useState({username:'',password:''});
     const [isChecked, setIsChecked] = useState(false);
-        
+    const navigate = useNavigate();
+
     function handleChange(e) {
         const { name, value } = e.target
         setDataInput(prevData => ({ ...prevData, [name]: value }))
@@ -18,12 +20,15 @@ function LoginForm(props) {
         setIsChecked(e.target.checked);
 
     }
-    
+    function handleSubmit(e) {
+        e.preventDefault();
+        navigate("/landing");
+    }
     return (
         <>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi assumenda quis, dolore, quo quisquam</p>
             <div className={styles.loginSpacer}></div>
-            <form action="">
+            <form action="" onSubmit={handleSubmit}>
                 <label htmlFor="username">User name</label>
                 <input type="text" onChange={handleChange} name='username' id="username" placeholder='Enter Your User name' />
                 <label htmlFor="password">Password</label>
