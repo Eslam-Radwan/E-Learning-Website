@@ -1,10 +1,9 @@
 import React, { useState } from 'react'
-import styles from './memeberShip.module.css'
-
-import Header from '../header/Header'
-import Footer from '../footer/Footer'
+import styles from './memberShip.module.css'
+import Header from '../MainHeader/Header'
+import Footer from '../MainFooter/Footer'
 import { FaCircleCheck } from "react-icons/fa6";
-import Coaching from '../coaching/Coaching';
+import Coaching from '../CoachingSection/Coaching';
 import { IoIosArrowDown } from "react-icons/io";
 import { FaAndroid } from "react-icons/fa";
 import { FaApple } from "react-icons/fa";
@@ -12,19 +11,19 @@ export default function MemberShip() {
   const [opened, setOpened] = useState(Array.from({ length: 5 }, (_, i) => false))
 
 
-  function handleClick(index){
+  function handleClick(index) {
     const key = index
     console.log(key);
-    
-    setOpened((prevOpened)=>{
+
+    setOpened((prevOpened) => {
       const newarr = [...prevOpened];
-    newarr[index] = !newarr[index];
-    return newarr;
+      newarr[index] = !newarr[index];
+      return newarr;
     })
     console.log(opened);
   }
 
-  
+
   function accordion() {
     return (
       <ul>
@@ -36,7 +35,7 @@ export default function MemberShip() {
                   <div className={styles.circle}></div>
                   <h3>Lorem ipsum dolor sit amet</h3>
                 </div>
-                <IoIosArrowDown onClick={()=>handleClick(index)} />
+                <IoIosArrowDown onClick={() => handleClick(index)} />
               </div>
               {opened[index] && <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempos Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod temporLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempos Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod temporLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempos Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod temporLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempos Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor</p>}
             </li>
@@ -100,9 +99,9 @@ export default function MemberShip() {
       <Coaching />
       <div className={styles.accordion}>
         <h2>Online coaching lessons for remote learning.</h2>
-          {
-            accordion()
-          }
+        {
+          accordion()
+        }
       </div>
       <div className={styles.reviews}>
         <div className={styles.container}>
@@ -110,28 +109,28 @@ export default function MemberShip() {
           <div className={styles.boxes}>
             <div className={styles.box}>
               <div className={styles.image}>
-                <img src='/images/account-image.png'/>
+                <img src='/images/account-image.png' />
               </div>
               <h3>Bulkin Simons</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod</p>
             </div>
             <div className={styles.box}>
               <div className={styles.image}>
-                <img src='/images/account-image.png'/>
+                <img src='/images/account-image.png' />
               </div>
               <h3>Bulkin Simons</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod</p>
             </div>
             <div className={styles.box}>
               <div className={styles.image}>
-                <img src='/images/account-image.png'/>
+                <img src='/images/account-image.png' />
               </div>
               <h3>Bulkin Simons</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod</p>
             </div>
             <div className={styles.box}>
               <div className={styles.image}>
-                <img src='/images/account-image.png'/>
+                <img src='/images/account-image.png' />
               </div>
               <h3>Bulkin Simons</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod</p>
@@ -140,8 +139,8 @@ export default function MemberShip() {
           <div className={styles.app}>
             <h2>APP is available for free</h2>
             <div className={styles.buttons}>
-              <button className={styles.android}><FaAndroid/>Android APP</button>
-              <button className={styles.apple}><FaApple/>IOS APP</button>
+              <button className={styles.android}><FaAndroid />Android APP</button>
+              <button className={styles.apple}><FaApple />IOS APP</button>
             </div>
           </div>
         </div>
@@ -149,20 +148,20 @@ export default function MemberShip() {
       <div className={styles.apply}>
         <div className={styles.boxes}>
           <div className={styles.box}>
-            <img src='/images/summary.png'/>
+            <img src='/images/summary.png' />
             <h3>Become a teacher</h3>
             <p>Class, launched less than a year ago by Blackboard co-founder Michael Chasen, integrates exclusively...</p>
             <button>Apply a Teacher</button>
           </div>
           <div className={styles.box}>
-            <img src='/images/summary.png'/>
+            <img src='/images/summary.png' />
             <h3>Become a teacher</h3>
             <p>Class, launched less than a year ago by Blackboard co-founder Michael Chasen, integrates exclusively...</p>
             <button>Apply a Teacher</button>
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   )
 }
