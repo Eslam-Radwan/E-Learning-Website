@@ -1,5 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
+import styles from './login.module.css'
+
 
 function SignupForm(props) {
     const [dataInput, setDataInput] = useState({username:'',email:'',password:''});
@@ -21,7 +23,7 @@ function SignupForm(props) {
     return (
         <>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi assumenda quis, dolore, quo quisquam</p>
-            <div className="signupSpacer"></div>
+            <div className={styles.signupSpacer}></div>
             <form action="">
                 <label htmlFor="email">Email Address</label>
                 <input type="email" onChange={handleChange} name="email" id="email" placeholder='Enter Your Email Address' />

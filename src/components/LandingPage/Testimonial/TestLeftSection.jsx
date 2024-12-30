@@ -1,11 +1,12 @@
 import React from 'react';
-import './testLeftSection.css'
+import styles from './testLeftSection.module.css'
+
 
 function TestLeftSection(props) {
     return (
-        <div className='testLeftSec'>
+        <div className={styles.testLeftSec}>
 
-            <div className="testLeftSec__container">
+            <div className={styles.testLeftSec__container}>
                 <h3>Testimonial</h3>
                 <h4>What They Say?</h4>
                 <p>TOTC has got more than 100k positive ratings from our users around the world. </p>

@@ -1,12 +1,13 @@
 import React from 'react';
 import TestLeftSection from './TestLeftSection';
 import TestRightSection from './TestRightSection';
-import './test.css'
+import styles from './test.module.css'
+
 
 function Test(props) {
     return (
-        <div className='test'>
-            <div className="test__container">
+        <div className={styles.test}>
+            <div className={styles.test__container}>
                 <TestLeftSection />
                 <TestRightSection />
             </div>

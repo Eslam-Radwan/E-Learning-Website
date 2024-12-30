@@ -1,0 +1,26 @@
+.summaryCard img {
+    width: 200px;
+    
+}
+.summaryCard {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #9dccffc8;
+    padding: 30px;
+    height: 70vh;
+    border-radius: 20px;
+}
+
+.summaryCard__card {
+    display: flex;
+    gap: 20px;
+}
+
+.summaryCard__lowerSec > *{
+    display: flex;
+    justify-content: space-between;
+}
+.summaryCard__lowerSec > *:not(:last-child){
+    border-bottom: 1px solid black;
+}
