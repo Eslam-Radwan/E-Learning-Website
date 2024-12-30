@@ -16,7 +16,7 @@ function Header(props) {
             <div className={styles.landing__header__container}>
                 <div className={styles.landing__header__navBar}>
                     <img src="/images/icons/logo.png" alt="" />
-                    <div className={styles.spacer}></div>
+                    {/* <div className={styles.spacer}></div> */}
                     <ul >
                         <div className={styles.landing__header__links}>
                         <li><Link className={styles.link} to='/landing'>Home</Link></li>
