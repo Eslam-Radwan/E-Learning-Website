@@ -1,8 +1,7 @@
 import React from 'react'
 import Header from '../MainHeader/Header'
 import styles from './blog.module.css'
-
-import RelatedBlog from '../RelatedBlogPage/RelatedBlog'
+import RelatedBlog from '../RelatedBlogSection/RelatedBlog'
 import GenericSection from '../GenericSection/GenericSection'
 import Footer from '../MainFooter/Footer'
 export default function Blog() {
@@ -47,9 +46,9 @@ export default function Blog() {
           </div>
         </div>
       </div>
-      <RelatedBlog/>
-      <GenericSection/>
-      <Footer/>
+      <RelatedBlog />
+      <GenericSection />
+      <Footer />
     </div>
   )
 }

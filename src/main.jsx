@@ -8,9 +8,10 @@ import Landing from './components/LandingPage/Landing.jsx'
 // import CourseDetail from './components/CourseDetailPage/CourseDetail.jsx'
 // import Checkout from './components/CheckoutPage/Checkout.jsx'
 import BlogDetial from './components/BlogDetailPage/BlogDetail.jsx'
+import MemberShip from './components/MembershipPage/MemberShip.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BlogDetial />
+    <MemberShip />
   </StrictMode>,
 )

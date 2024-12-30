@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../MainHeader/Header';
 import Footer from '../MainFooter/Footer';
 import styles from './blogDetail.module.css'
-import RelatedBlog from '../RelatedBlogPage/RelatedBlog';
+import RelatedBlog from '../RelatedBlogSection/RelatedBlog';
 function BlogDetail(props) {
     return (
         <div className={styles.blogDetail}>
