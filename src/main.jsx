@@ -10,6 +10,7 @@ import CourseDetail from './components/CourseDetailPage/CourseDetail.jsx'
 import Checkout from './components/CheckoutPage/Checkout.jsx'
 import BlogDetial from './components/BlogDetailPage/BlogDetail.jsx'
 import MemberShip from './components/MembershipPage/MemberShip.jsx'
+import Course from './components/CoursePage/Course.jsx'
 
 
 const router = createBrowserRouter([
@@ -23,14 +24,14 @@ const router = createBrowserRouter([
   },
   {
     path: "courses", 
-    element: <CourseDetail />
+    element: <Course />
   },
   {
     path: "blog", 
     element: <Blog />
   },
   {
-    path: "aboutUs", 
+    path: "membership", 
     element: <MemberShip />
   },
 ]);

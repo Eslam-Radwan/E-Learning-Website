@@ -17,26 +17,26 @@ function News(props) {
                         para='Class Technologies Inc., the company that created Class,...'
                         category='PRESS RELEASE'
                         img='images/New1.png'
-                        className={styles.news__container__card1}
+                        className='news__container__card1'
                     />
                     <NewsCard
                         title="Zoom's earliest investors are betting millions on a better Zoom for schools"
                         para='Zoom was never created to be a consumer product. Nonetheless, the...'
                         category='NEWS'
                         img='images/New2.png'
-                        className={styles.news__container__card2} />
+                        className='news__container__card2' />
                     <NewsCard
                         title='Former Blackboard CEO Raises $16M to Bring LMS Features to Zoom Classrooms'
                         para='This year, investors have reaped big financial returns from betting on Zoom...'
                         category='NEWS'
                         img='images/New3.png'
-                        className={styles.news__container__card3} />
+                        className='news__container__card3' />
                     <NewsCard
                         title='Class adds $30 million to its balance sheet for a Zoom-friendly edtech solution'
                         para='Class, launched less than a year ago by Blackboard co-founder Michael Chasen, integrates exclusively...'
                         category='NEWS'
                         img='images/New4.png'
-                        className={styles.news__container__card4} />
+                        className='news__container__card4' />
                 </div>
             </div>
 

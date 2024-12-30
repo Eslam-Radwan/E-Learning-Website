@@ -19,11 +19,10 @@ function Header(props) {
                     <div className={styles.spacer}></div>
                     <ul >
                         <div className={styles.landing__header__links}>
-                        <li><Link to='/landing'>Home</Link></li>
-                        <li><Link to='/courses'>Courses</Link></li>
-                        <li><Link to='/career'>Career</Link></li>
-                        <li><Link to='/blog'>Blog</Link></li>
-                        <li><Link to='/aboutUs'>About Us</Link></li>
+                        <li><Link className={styles.link} to='/landing'>Home</Link></li>
+                        <li><Link className={styles.link} to='/courses'>Courses</Link></li>
+                        <li><Link className={styles.link} to='/blog'>Blog</Link></li>
+                        <li><Link className={styles.link} to='/membership'>MemberShip</Link></li>
                         </div>
                         <li><button className={styles.loginButton} onClick={handleClick}>Login</button></li>
                         <li><button onClick={handleClick}>Sign Up</button></li>
