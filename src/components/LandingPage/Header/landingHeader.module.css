@@ -35,8 +35,9 @@
 .landing__header__navBar ul {
     display: flex;
     list-style: none;
-    justify-content: space-evenly;
-    flex-basis: 100%;
+    justify-content: space-around;
+    gap: 30px;
+    flex-basis: 50%;
 }
 
 .landing__header__navBar a {

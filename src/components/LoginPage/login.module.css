@@ -6,6 +6,7 @@
     height: 100vh;
     margin-left: auto;
     margin-right: auto;
+    color: #5B5B5B;
 }
 
 .container main {
@@ -14,14 +15,17 @@
     justify-content: space-around;
     height: 100%;
 }
+
 /* main styling */
 
 h3 {
     font-weight: 400;
 }
-.smallGirlImg img{
+
+.smallGirlImg img {
     width: 35vw;
 }
+
 .form {
     display: flex;
     flex-direction: column;
@@ -29,18 +33,21 @@ h3 {
     align-items: center;
     width: 50%;
     height: 85vh;
+    gap: 20px;
 }
 
 @media (max-width:800px) {
-    
+
     main {
         display: block;
     }
-    main > .smallGirlImg img {
+
+    main>.smallGirlImg img {
         display: none;
         width: 0;
     }
-    main > .form {
+
+    main>.form {
         width: 100%;
         height: 100vh;
         align-items: center;
@@ -53,30 +60,33 @@ h3 {
 /* Buttons styling */
 .alterButtons {
     background-color: rgba(73, 187, 189, 0.6);
-    border-radius: 50px;
-    width: 330px;
-    height: 60px;
+    border-radius: 70px;
+    padding: 8px 20px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
 }
-.alterButtons button{
+
+.alterButtons button {
     width: 145px;
     height: 40px;
-    color:white;
+    color: white;
     background-color: transparent;
     border-radius: 50px;
     border-color: transparent;
     transition: 0.2s;
 
 }
+
 .alterButtons button:hover {
     cursor: pointer;
     background-color: #49BBBD;
 }
+
 /* small form styling */
-.loginForm, .signupForm {
+.loginForm,
+.signupForm {
     height: 300px;
 }
 
@@ -87,16 +97,18 @@ form {
     display: flex;
     flex-direction: column;
 }
+
 input:not(input[type="submit"]):not(input[type="checkbox"]) {
     border: 1.5px solid #49BBBD;
     border-radius: 50px;
     padding: 12px 15px;
     margin: 10px 0;
-    width: 80%;
+    width: 100%;
 }
+
 input:focus {
-   border-color: transparent;
-   outline: transparent;
+    border-color: transparent;
+    outline: transparent;
 }
 
 input[type="submit"] {
@@ -109,14 +121,16 @@ input[type="submit"] {
     align-self: center;
     margin-top: 20px;
 }
-input[type="checkbox"]
-{
+
+input[type="checkbox"] {
     margin-right: 8px
 }
-.loginSpacer, .signupSpacer {
+
+.loginSpacer,
+.signupSpacer {
     height: 60px;
 }
+
 input::placeholder {
     user-select: none;
 }
-
