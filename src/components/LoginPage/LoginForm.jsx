@@ -20,7 +20,7 @@ function LoginForm(props) {
     return (
         <>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi assumenda quis, dolore, quo quisquam</p>
-            <div className="loginSpacer"></div>
+            <div className={styles.loginSpacer}></div>
             <form action="">
                 <label htmlFor="username">User name</label>
                 <input type="text" onChange={handleChange} name='username' id="username" placeholder='Enter Your User name' />

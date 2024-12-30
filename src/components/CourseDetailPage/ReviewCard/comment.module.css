@@ -1,0 +1,22 @@
+.comment__container {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap:10px;
+    margin: 30px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    height: 100%;
+}
+.comment__upperSec img {
+    width: 50px;
+    border-radius: 50%;
+}
+.comment__upperSec {
+    display:flex;
+    align-items: center;
+    gap: 10px;
+}
+.comment {
+    height: 100%;
+}

@@ -1,0 +1,29 @@
+.courseDetail__mainImage::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+
+}
+
+.courseDetail__mainImage {
+    position: relative;
+    height: 70vh;
+
+}
+
+.courseDetail__mainImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.courseDetail__product {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+

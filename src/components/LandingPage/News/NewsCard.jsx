@@ -1,15 +1,15 @@
 import React from 'react';
-import './newsCard.css'
+import styles from './newsCard.module.css'
 
 function NewsCard(props) {
     return (
-        <div className={`newsCard ${props.className}`}>
-            <div className='newsCard__container'>
-                <div className="newsCard__container__leftSec">
+        <div className={`${styles.newsCard} ${styles.props.className}`}>
+            <div className={styles.newsCard__container}>
+                <div className={styles.newsCard__container__leftSec}>
                 <img src={props.img} alt="" />
                 <p>{props.category}</p>
                 </div>
-                <div className="newsCard__container__rightSec">
+                <div className={styles.newsCard__container__rightSec}>
                 <h3>{props.title}</h3>
                 <p>{props.para}</p>
                 </div>

@@ -1,0 +1,30 @@
+.reviewCard__container {
+    background-color:rgba(157, 204, 255, 0.3);
+    width: 50vw;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 40px;
+    border-radius: 20px;
+}
+.reviewCard__upperSec {
+    background:white;
+    width: 100%;
+    border-radius: 20px;
+    padding: 30px; 
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center
+}
+.reviewCard__lowerSec > *:not(:last-child){
+    border-bottom: .5px solid rgba(0, 0, 0, 0.2);
+}
+.reviewCard__upperSec__stars {
+    color: #FDB022;
+}
+.reviewCard__upperSec__heading {
+    font-size:30px;
+}
+.reviewCard {
+    margin-top:30px
+}

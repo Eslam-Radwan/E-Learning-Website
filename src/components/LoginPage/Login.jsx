@@ -2,6 +2,8 @@ import React from 'react';
 import LoginForm from './LoginForm';
 import SignupForm from './SignupForm';
 import { useState } from 'react';
+import styles from './login.module.css'
+
 import "./Login.css"
 
 function Login() {
@@ -16,14 +18,14 @@ function Login() {
         setIsLogin(false);
     }
     return (
-        <div className='container'>
+        <div className={styles.container}>
             <main>
-                <div className='smallGirlImg'>
+                <div className={styles.smallGirlImg}>
                     <img src={mainPicture} alt="" />
                 </div>
-                <div className='form'>
+                <div className={styles.form}>
                     <h3>Welcome to our website</h3>
-                    <div className='alterButtons '>
+                    <div className={styles.alterButtons}>
                         <button onClick={loginButtonClicked} style={isLogin ? { backgroundColor: "#49BBBD" } : { backgroundColor: "transparent" }} >Login</button>
                         <button onClick={registerButtonClicked} style={isLogin ? { backgroundColor: "transparent" } : { backgroundColor: "#49BBBD" }}>Register</button>
                     </div>
