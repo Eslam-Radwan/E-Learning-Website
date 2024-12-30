@@ -3,9 +3,14 @@ import { MdEmail, MdBarChart } from "react-icons/md";
 import { FaCalendarAlt } from "react-icons/fa";
 import { FaPlay } from "react-icons/fa6";
 import styles from './landingHeader.module.css'
+import { Link, useNavigate } from 'react-router-dom';
 
 
 function Header(props) {
+    const navigate = useNavigate();
+    function handleClick(e){
+        navigate('/')
+    }
     return (
         <header className={styles.landing__header}>
             <div className={styles.landing__header__container}>
@@ -14,14 +19,14 @@ function Header(props) {
                     <div className={styles.spacer}></div>
                     <ul >
                         <div className={styles.landing__header__links}>
-                        <li><a>Home</a></li>
-                        <li><a>Courses</a></li>
-                        <li><a>Career</a></li>
-                        <li><a>Blog</a></li>
-                        <li><a>About Us</a></li>
+                        <li><Link to='/landing'>Home</Link></li>
+                        <li><Link to='/courses'>Courses</Link></li>
+                        <li><Link to='/career'>Career</Link></li>
+                        <li><Link to='/blog'>Blog</Link></li>
+                        <li><Link to='/aboutUs'>About Us</Link></li>
                         </div>
-                        <li><button className={styles.loginButton}>Login</button></li>
-                        <li><button>Sign Up</button></li>
+                        <li><button className={styles.loginButton} onClick={handleClick}>Login</button></li>
+                        <li><button onClick={handleClick}>Sign Up</button></li>
                     </ul>
                 </div>
                 <div className={styles.heading}>
@@ -57,7 +62,7 @@ function Header(props) {
                                 <div>
                                     <h3>User Experience Class</h3>
                                     <p>Today at 12:00 pm</p>
-                                    <button>Join Now</button>
+                                    <button onClick={handleClick}>Join Now</button>
                                 </div>
                             </div>
                         </div>
