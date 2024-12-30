@@ -1,8 +1,8 @@
 import React from 'react';
-import Header from '../header/Header';
-import Footer from '../footer/Footer';
+import Header from '../MainHeader/Header';
+import Footer from '../MainFooter/Footer';
 import styles from './blogDetail.module.css'
-import RelatedBlog from '../related blog/RelatedBlog';
+import RelatedBlog from '../RelatedBlogPage/RelatedBlog';
 function BlogDetail(props) {
     return (
         <div className={styles.blogDetail}>

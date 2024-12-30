@@ -1,11 +1,11 @@
 import React from 'react';
-import Header from '../header/Header'
+import Header from '../MainHeader/Header'
 import ReviewCard from './ReviewCard/ReviewCard';
 import styles from './courseDetail.module.css'
 import ProductCard from './ProductCard/ProductCard';
-import GenericSection from '../generic-section/GenericSection';
-import ClassRoom from '../LandingPage/WhatIsTotc/ClassRoom';
-import Footer from '../footer/Footer';
+import GenericSection from '../GenericSection/GenericSection';
+import ClassRoom from '../LandingPage/WhatIsTotc/ClassRoom.jsx';
+import Footer from '../MainFooter/Footer';
 import Education from './Education/Education';
 function CourseDetail(props) {
 

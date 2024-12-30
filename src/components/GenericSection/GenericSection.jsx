@@ -5,12 +5,12 @@ import styles from './genericSection.module.css'
 
 export default function GenericSection({ sectionName = "Mareting Articles" }) {
     return (
-        <div className={styles.generic-section}>
+        <div className={styles['generic-section']}>
             <div className={styles.top}>
                 <h2>{sectionName}</h2>
                 <a>see all</a>
             </div>
-            <div className={styles.course-list}>
+            <div className={styles['course-list']}>
                 <div className={styles.course}>
                     <img src='/images/little-girl.png' />
                     <div className={styles.design}>

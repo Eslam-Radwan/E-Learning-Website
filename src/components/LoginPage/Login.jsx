@@ -4,7 +4,6 @@ import SignupForm from './SignupForm';
 import { useState } from 'react';
 import styles from './login.module.css'
 
-import "./Login.css"
 
 function Login() {
     const [isLogin, setIsLogin] = useState(true);

@@ -1,9 +1,9 @@
 import React from 'react';
-import Footer from '../footer/Footer';
-import Header from '../header/Header';
+import Footer from '../MainFooter/Footer';
+import Header from '../MainHeader/Header';
 import styles from './checkout.module.css'
-import CheckoutCard from './CheckoutCard';
-import SummaryCard from './SummaryCard';
+import CheckoutCard from './CheckoutCard/CheckoutCard';
+import SummaryCard from './SummaryCard/SummaryCard';
 import Education from '../CourseDetailPage/Education/Education';
 function Checkout(props) {
     return (
