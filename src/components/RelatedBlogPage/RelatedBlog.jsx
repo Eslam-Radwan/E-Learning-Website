@@ -1,12 +1,11 @@
 import React from 'react'
 import { FaEye } from "react-icons/fa";
-import './styles.css'
 import styles from './relatedBlog.module.css'
 
 
 export default function RelatedBlog() {
     return (
-        <div className={styles.related-blogs}>
+        <div className={styles['related-blogs']}>
             <div className={styles.noname}>
                 <h2>Related Blog</h2>
                 <a>see all</a>

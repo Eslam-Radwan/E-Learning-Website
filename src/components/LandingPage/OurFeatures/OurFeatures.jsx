@@ -7,7 +7,7 @@ function OurFeatures(props) {
         <div className={styles.features}>
             <div className={styles.features__container}>
                 <div className={styles.features__heading}>
-                    <h2>Our <span className={styles.features__cards-diffColor}>Feature</span></h2>
+                    <h2>Our <span className={styles['features__cards--diffColor']}>Feature</span></h2>
                     <p>This very extraordinary feature, can make learning activities more efficient</p>
                 </div>
                 <div className={styles.features__cards}>
@@ -24,7 +24,7 @@ function OurFeatures(props) {
                         </div>
                         <div className={styles.feature1__rightSec}>
                             <article>
-                                <h3> A <span className={styles.features__cards-diffColor}>user interface</span> designed for the classroom</h3>
+                                <h3> A <span className={styles['features__cards--diffColor']}>user interface</span> designed for the classroom</h3>
                                 <ul>
                                     <li>Teachers don't get lost in the grid view and have a dedicated Podium space.</li>
                                     <li>TA's and presenters can be moved to the front of the class.</li>
@@ -36,7 +36,7 @@ function OurFeatures(props) {
                     <div className={styles.feature2}>
                         <div className={styles.feature2__leftSec}>
                             <article>
-                                <h3><span className={styles.features__cards-diffColor}>Tools</span> For Teachers And Learners</h3>
+                                <h3><span className={styles['features__cards--diffColor']}>Tools</span> For Teachers And Learners</h3>
                                 <p>Class has a dynamic set of teaching tools built to be deployed and used during class.
                                     Teachers can handout assignments in real-time for students to complete and submit.</p>
                             </article>
@@ -54,7 +54,7 @@ function OurFeatures(props) {
                         </div>
                         <div className={styles.feature3__rightSec}>
                             <article>
-                                <h3>Assessments, <span className={styles.features__cards-diffColor}>Quizzes</span>, Tests</h3>
+                                <h3>Assessments, <span className={styles['features__cards--diffColor']}>Quizzes</span>, Tests</h3>
                                 <p>Easily launch live assignments, quizzes, and tests.
                                     Student results are automatically entered in the online gradebook.</p>
                             </article>
@@ -63,7 +63,7 @@ function OurFeatures(props) {
                     <div className={styles.feature4}>
                         <div className={styles.feature4__leftSec}>
                             <article>
-                                <h3><span className={styles.features__cards-diffColor}>Class Management</span> Tools for Educators</h3>
+                                <h3><span className={styles['features__cards--diffColor']}>Class Management</span> Tools for Educators</h3>
                                 <p>Class provides tools to help run and manage the class such as Class Roster, Attendance, and more. With the Gradebook, teachers can review and grade tests and quizzes in real-time.</p>
                             </article>
                         </div>
@@ -94,7 +94,7 @@ function OurFeatures(props) {
                         </div>
                         <div className={styles.feature5__rightSec}>
                             <article>
-                                <h3>One-on-One <span className={styles.features__cards-diffColor}>Discussions</span></h3>
+                                <h3>One-on-One <span className={styles['features__cards--diffColor']}>Discussions</span></h3>
                                 <p>Teachers and teacher assistants can talk with students privately without leaving the Zoom environment.</p>
                             </article>
                         </div>

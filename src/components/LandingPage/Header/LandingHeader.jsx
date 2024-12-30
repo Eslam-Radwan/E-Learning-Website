@@ -2,7 +2,7 @@ import React from 'react';
 import { MdEmail, MdBarChart } from "react-icons/md";
 import { FaCalendarAlt } from "react-icons/fa";
 import { FaPlay } from "react-icons/fa6";
-import styles from './header.module.css'
+import styles from './landingHeader.module.css'
 
 
 function Header(props) {
@@ -35,24 +35,24 @@ function Header(props) {
                     <div className={styles.rightSec}>
                         <img src="/images/lovely-teenage-girl.png" alt="" />
                         <div className={styles.cards}>
-                            <div className={`${analysisCard} ${card}`}>
+                            <div className={`${styles.analysisCard} ${styles.card}`}>
                                 <MdBarChart />
                             </div>
-                            <div className={`${calenderCard} ${card}`}>
-                                <FaCalendarAlt className={`${calenderIcon} ${icon}`} />
+                            <div className={`${styles.calenderCard} ${styles.card}`}>
+                                <FaCalendarAlt className={`${styles.calenderIcon} ${styles.icon}`} />
                                 <section>
                                     <h3>250K</h3>
                                     <p>Assisted Student</p>
                                 </section>
                             </div>
-                            <div className={`${emailCard} ${card}`}>
-                                <MdEmail className={`${emailIcon} ${icon}`} />
+                            <div className={`${styles.emailCard} ${styles.card}`}>
+                                <MdEmail className={`${styles.emailIcon} ${styles.icon}`} />
                                 <div>
                                     <h3>Congratulation</h3>
                                     <p>your admission completed</p>
                                 </div>
                             </div>
-                            <div className={`${userCard} ${card}`}>
+                            <div className={`${styles.userCard} ${styles.card}`}>
                                 <img className={styles.userCard__img} src="images/icons/user.png" alt="" />
                                 <div>
                                     <h3>User Experience Class</h3>
