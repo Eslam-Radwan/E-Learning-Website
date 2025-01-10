@@ -6,6 +6,18 @@ This project was created with love by [Eslam Radwan](https://github.com/Eslam-Ra
 
 Wait for deploying... It's coming soon! 😊
 
+## Content
+- [Screenshots](#screenshots)
+- [Insallation](#installation)
+## Screenshots
+
+![](Screenshots/login.png)
+
+---
+![](Screenshots/landing.png)
+---
+![](Screenshots/courses.png)
+---
 ## Installation
 Clone the repository:
 ```bash
