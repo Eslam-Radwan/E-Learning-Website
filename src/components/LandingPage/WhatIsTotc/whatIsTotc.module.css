@@ -40,7 +40,7 @@
 }
 
 .classRoom__playButton {
-    background-image: url('images/confident-teacher-explaining-lesson.png');
+    background-image: url('/images/confident-teacher-explaining-lesson.png');
     width: 600px;
     height: 400px;
     display: flex;

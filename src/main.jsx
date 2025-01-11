@@ -8,7 +8,7 @@ import Login from './components/LoginPage/Login.jsx'
 import Blog from './components/BlogPage/Blog.jsx'
 import CourseDetail from './components/CourseDetailPage/CourseDetail.jsx'
 import Checkout from './components/CheckoutPage/Checkout.jsx'
-import BlogDetial from './components/BlogDetailPage/BlogDetail.jsx'
+import BlogDetail from './components/BlogDetailPage/BlogDetail.jsx'
 import MemberShip from './components/MembershipPage/MemberShip.jsx'
 import Course from './components/CoursePage/Course.jsx'
 
@@ -22,6 +22,7 @@ createRoot(document.getElementById('root')).render(
       <Route path="/courses" element={<Course />} />
       <Route path="/blog" element={<Blog />} />
       <Route path="/membership" element={<MemberShip />} />
+      <Route path="*" element={<h1>404 - Page Not Found</h1>} />
     </Routes>
   </BrowserRouter>
 );
