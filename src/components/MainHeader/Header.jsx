@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function Header() {
   return (
     <div className={styles.header}>
-      <img src='/images/icon.png' />
+      <img src='images/icon.png' />
       <div className={styles.wrap}>
         <ul>
           <li><Link className={styles.link} to='/landing'>Home</Link></li>
@@ -13,7 +13,7 @@ export default function Header() {
           <li><Link className={styles.link} to='/membership'>MemberShip</Link></li>
         </ul>
         <div className={styles.account}>
-          <img src='/images/account-image.png' />
+          <img src='images/account-image.png' />
           <span>Lina</span>
         </div>
       </div>

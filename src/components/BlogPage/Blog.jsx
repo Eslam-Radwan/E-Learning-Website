@@ -15,31 +15,31 @@ export default function Blog() {
           <p className={styles.details}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempos Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor</p>
           <button className={styles['start-button']}>start Learning now</button>
         </div>
-        <img src='/images/summary.png' />
+        <img src='images/summary.png' />
       </div>
       <div className={styles['blog-list']}>
         <h2>Reading blog list</h2>
         <div className={styles.boxes}>
           <div className={styles.box}>
-            <img src='/images/blog-list1.jpeg' />
+            <img src='images/blog-list1.jpeg' />
             <div className={styles['box-label']}>
               <span>UX/UI</span>
             </div>
           </div>
           <div className={styles.box}>
-            <img src='/images/blog-list2.png' />
+            <img src='images/blog-list2.png' />
             <div className={styles['box-label']}>
               <span>React</span>
             </div>
           </div>
           <div className={styles.box}>
-            <img src='/images/blog-list3.jpeg' />
+            <img src='images/blog-list3.jpeg' />
             <div className={styles['box-label']}>
               <span>PHP</span>
             </div>
           </div>
           <div className={styles.box}>
-            <img src='/images/blog-list4.png' />
+            <img src='images/blog-list4.png' />
             <div className={styles['box-label']}>
               <span>JavaScript</span>
             </div>
