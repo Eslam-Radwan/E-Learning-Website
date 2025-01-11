@@ -13,32 +13,40 @@ import Course from './components/CoursePage/Course.jsx'
 
 
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Landing />, // Landing page as the main entry point
-  },
-  {
-    path: "/login",
-    element: <Login />, // Login page
-  },
-  {
-    path: "/blog",
-    element: <Blog />, // Blog page
-  },
-  {
-    path: "/membership",
-    element: <MemberShip />, // Membership page
-  },
-  {
-    path: "/courses",
-    element: <Course />, // Course page
-  },
-]);
+// const router = createBrowserRouter([
+//   {
+//     path: "/",
+//     element: <Landing />, // Landing page as the main entry point
+//   },
+//   {
+//     path: "/login",
+//     element: <Login />, // Login page
+//   },
+//   {
+//     path: "/blog",
+//     element: <Blog />, // Blog page
+//   },
+//   {
+//     path: "/membership",
+//     element: <MemberShip />, // Membership page
+//   },
+//   {
+//     path: "/courses",
+//     element: <Course />, // Course page
+//   },
+// ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/membership" element={<MemberShip />} />
+        <Route path="/course" element={<Course />} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
