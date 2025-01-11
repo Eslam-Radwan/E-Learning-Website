@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <div className={styles.footer}>
         <div className={styles.head}>
-            <img src="images/icon2.png" alt="logo" />
+            <img src="/images/icon2.png" alt="logo" />
             <h3>Virtual Class for Zoom</h3>
         </div>
         <h2>Subscribe to get our Newsletter</h2>

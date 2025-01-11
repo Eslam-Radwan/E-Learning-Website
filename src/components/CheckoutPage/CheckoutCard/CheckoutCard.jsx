@@ -8,10 +8,10 @@ function CheckoutCard(props) {
             <div >
                 <h3>cart Type</h3>
                 <div className={styles.checkoutCard__methods}>
-                    <img src="images/Paypal.png" alt="" />
-                    <img src="images/ae.png" alt="" />
-                    <img src="images/visa.png" alt="" />
-                    <img src="images/Mastercard.png" alt="" />
+                    <img src="/images/Paypal.png" alt="" />
+                    <img src="/images/ae.png" alt="" />
+                    <img src="/images/visa.png" alt="" />
+                    <img src="/images/Mastercard.png" alt="" />
                 </div>
             </div>
             <div>

@@ -12,7 +12,7 @@ export default function GenericSection({ sectionName = "Mareting Articles" }) {
             </div>
             <div className={styles['course-list']}>
                 <div className={styles.course}>
-                    <img src='images/little-girl.png' />
+                    <img src='/images/little-girl.png' />
                     <div className={styles.design}>
                         <div>
                             <HiOutlineSquares2X2 />
@@ -27,7 +27,7 @@ export default function GenericSection({ sectionName = "Mareting Articles" }) {
                     <p>Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
                     <div className={styles.bot}>
                         <div className={styles.account}>
-                            <img src='images/account-image.png' />
+                            <img src='/images/account-image.png' />
                             <span>Lina</span>
                         </div>
                         <div className={styles.price}>
@@ -37,7 +37,7 @@ export default function GenericSection({ sectionName = "Mareting Articles" }) {
                     </div>
                 </div>
                 <div className={styles.course}>
-                    <img src='images/blog-list4.png' />
+                    <img src='/images/blog-list4.png' />
                     <div className={styles.design}>
                         <div>
                             <HiOutlineSquares2X2 />
@@ -52,7 +52,7 @@ export default function GenericSection({ sectionName = "Mareting Articles" }) {
                     <p>Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
                     <div className={styles.bot}>
                         <div className={styles.account}>
-                            <img src='images/account-image.png' />
+                            <img src='/images/account-image.png' />
                             <span>Lina</span>
                         </div>
                         <div className={styles.price}>
@@ -62,7 +62,7 @@ export default function GenericSection({ sectionName = "Mareting Articles" }) {
                     </div>
                 </div>
                 <div className={styles.course}>
-                    <img src='images/summary.png' />
+                    <img src='/images/summary.png' />
                     <div className={styles.design}>
                         <div>
                             <HiOutlineSquares2X2 />
@@ -77,7 +77,7 @@ export default function GenericSection({ sectionName = "Mareting Articles" }) {
                     <p>Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
                     <div className={styles.bot}>
                         <div className={styles.account}>
-                            <img src='images/account-image.png' />
+                            <img src='/images/account-image.png' />
                             <span>Lina</span>
                         </div>
                         <div className={styles.price}>
@@ -87,7 +87,7 @@ export default function GenericSection({ sectionName = "Mareting Articles" }) {
                     </div>
                 </div>
                 <div className={styles.course}>
-                    <img src='images/cat.png' />
+                    <img src='/images/cat.png' />
                     <div className={styles.design}>
                         <div>
                             <HiOutlineSquares2X2 />
@@ -102,7 +102,7 @@ export default function GenericSection({ sectionName = "Mareting Articles" }) {
                     <p>Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
                     <div className={styles.bot}>
                         <div className={styles.account}>
-                            <img src='images/account-image.png' />
+                            <img src='/images/account-image.png' />
                             <span>Lina</span>
                         </div>
                         <div className={styles.price}>

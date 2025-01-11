@@ -7,13 +7,13 @@ import styles from './login.module.css'
 
 function Login() {
     const [isLogin, setIsLogin] = useState(true);
-    const [mainPicture, setMainPicture] = useState('images/small-girl-raising-hand.png');
+    const [mainPicture, setMainPicture] = useState('/images/small-girl-raising-hand.png');
     function loginButtonClicked(e) {
-        setMainPicture("images/small-girl-raising-hand.png");
+        setMainPicture("/images/small-girl-raising-hand.png");
         setIsLogin(true);
     }
     function registerButtonClicked(e) {
-        setMainPicture("images/girls-raising-hand.png");
+        setMainPicture("/images/girls-raising-hand.png");
         setIsLogin(false);
     }
     return (

@@ -12,10 +12,10 @@ export default function RelatedBlog() {
             </div>
             <div className={styles.blogs}>
                 <div className={styles.blog}>
-                    <img src='images/blog.png' />
+                    <img src='/images/blog.png' />
                     <p>Class adds $30 million to its balance sheet for a Zoom-friendly edtech solution</p>
                     <div className={styles.account}>
-                        <img src='images/account-image.png' />
+                        <img src='/images/account-image.png' />
                         <span>Lina</span>
                     </div>
                     <p className={styles.description}>Class, launched less than a year ago by Blackboard co-founder Michael Chasen, integrates exclusively...</p>
@@ -28,10 +28,10 @@ export default function RelatedBlog() {
                     </div>
                 </div>
                 <div className={styles.blog}>
-                    <img src='images/summary.png' />
+                    <img src='/images/summary.png' />
                     <p>Class adds $30 million to its balance sheet for a Zoom-friendly edtech solution</p>
                     <div className={styles.account}>
-                        <img src='images/account-image.png' />
+                        <img src='/images/account-image.png' />
                         <span>Lina</span>
                     </div>
                     <p className={styles.description}>Class, launched less than a year ago by Blackboard co-founder Michael Chasen, integrates exclusively...</p>

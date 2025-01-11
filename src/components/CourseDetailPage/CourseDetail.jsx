@@ -52,7 +52,7 @@ function CourseDetail(props) {
             <Header />
             <div className={styles.courseDetail__container}>
                 <div className={styles.courseDetail__mainImage}>
-                    <img src="images/teacher.png" alt="" />
+                    <img src="/images/teacher.png" alt="" />
                 </div>
                 <div className={styles.courseDetail__product}>
                 <ReviewCard card={card1}/>

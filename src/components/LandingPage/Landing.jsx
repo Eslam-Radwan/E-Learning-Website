@@ -8,12 +8,12 @@ import Testimonial from './Testimonial/Test';
 import Footer from '../MainFooter/Footer';
 import News from './News/News';
 import './landing.module.css'
-// import styles from './landing.module.css'
+import styles from './landing.module.css'
 
 
 function Landing(props) {
     return (
-        <main>
+        <main className={styles.main}>
             <Header/>
             <About1/>
             <About2/>

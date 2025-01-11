@@ -8,7 +8,7 @@ function BlogDetail(props) {
         <div className={styles.blogDetail}>
             <Header/>
             <div className={styles.blogDetail__mainImage}>
-                <img src="images/teacher.png" alt="" />
+                <img src="/images/teacher.png" alt="" />
             </div>
             <div className={styles.blogDetail__lowerSec}>
             <h2>Why Swift UI Should Be on the Radar of Every Mobile Developer</h2>

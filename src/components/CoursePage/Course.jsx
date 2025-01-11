@@ -25,10 +25,10 @@ export default function Course() {
                         </div>
                         <div className={styles.courses}>
                             <div className={styles.course}>
-                                <img src='images/summary.png' />
+                                <img src='/images/summary.png' />
                                 <h3>AWS Certified Solutions Architect</h3>
                                 <div className={styles.account}>
-                                    <img src='images/account-image.png' />
+                                    <img src='/images/account-image.png' />
                                     <span>Lina</span>
                                 </div>
                                 <div className={styles.bar}>
@@ -36,10 +36,10 @@ export default function Course() {
                                 <span className={styles.lesson}>lesson 5 of 7</span>
                             </div>
                             <div className={styles.course}>
-                                <img src='images/blog-list2.png' />
+                                <img src='/images/blog-list2.png' />
                                 <h3>AWS Certified Solutions Architect</h3>
                                 <div className={styles.account}>
-                                    <img src='images/account-image.png' />
+                                    <img src='/images/account-image.png' />
                                     <span>Lina</span>
                                 </div>
                                 <div className={styles.bar}>
@@ -47,10 +47,10 @@ export default function Course() {
                                 <span className={styles.lesson}>lesson 5 of 7</span>
                             </div>
                             <div className={styles.course}>
-                                <img src='images/summary.png' />
+                                <img src='/images/summary.png' />
                                 <h3>AWS Certified Solutions Architect</h3>
                                 <div className={styles.account}>
-                                    <img src='images/account-image.png' />
+                                    <img src='/images/account-image.png' />
                                     <span>Lina</span>
                                 </div>
                                 <div className={styles.bar}>

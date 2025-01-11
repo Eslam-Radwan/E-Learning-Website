@@ -16,11 +16,11 @@ function OurFeatures(props) {
                             <AppleWindow />
                             <button>Present</button>
                             <button>Call</button>
-                            <img src="images/userInterface1.png" alt="" />
-                            <img className={styles.remove} src="images/userInterface2.png" alt="" />
-                            <img className={styles.remove} src="images/userInterface3.png" alt="" />
-                            <img className={styles.remove} src="images/userInterface4.png" alt="" />
-                            <img className={styles.remove} src="images/userInterface5.png" alt="" />
+                            <img src="/images/userInterface1.png" alt="" />
+                            <img className={styles.remove} src="/images/userInterface2.png" alt="" />
+                            <img className={styles.remove} src="/images/userInterface3.png" alt="" />
+                            <img className={styles.remove} src="/images/userInterface4.png" alt="" />
+                            <img className={styles.remove} src="/images/userInterface5.png" alt="" />
                         </div>
                         <div className={styles.feature1__rightSec}>
                             <article>
@@ -42,14 +42,14 @@ function OurFeatures(props) {
                             </article>
                         </div>
                         <div className={`${styles.feature2__rightSec} ${styles.feature__figure}`}>
-                            <img src="images/lovely-teenage-girl.png" alt="" />
+                            <img src="/images/lovely-teenage-girl.png" alt="" />
                         </div>
                     </div>
                     <div className={styles.feature3}>
                         <div className={styles.feature3__leftSec}>
                             <div className={`${styles.feature3__leftSec__card} ${styles.feature__figure}`}>
                                 <h2>True or false? This play takes place in Italy</h2>
-                                <img src="images/quiz.png" alt="" />
+                                <img src="/images/quiz.png" alt="" />
                             </div>
                         </div>
                         <div className={styles.feature3__rightSec}>
@@ -73,10 +73,10 @@ function OurFeatures(props) {
                                 <div className={styles.cyan}></div>
                                 <div className={styles.red}></div>
                                 <div className={styles.green}></div>
-                                <img src="images/userInterface2.png" alt="" />
-                                <img src="images/userInterface3.png" alt="" />
-                                <img src="images/userInterface4.png" alt="" />
-                                <img src="images/userInterface5.png" alt="" />
+                                <img src="/images/userInterface2.png" alt="" />
+                                <img src="/images/userInterface3.png" alt="" />
+                                <img src="/images/userInterface4.png" alt="" />
+                                <img src="/images/userInterface5.png" alt="" />
                             </div>
 
                         </div>
@@ -84,8 +84,8 @@ function OurFeatures(props) {
                     <div className={styles.feature5}>
                         <div className={`${styles.feature5__leftSec} ${styles.feature__figure}`}>
                             <AppleWindow />
-                            <img src="images/userInterface1.png" alt="" />
-                            <img src="images/userInterface5.png" alt="" />
+                            <img src="/images/userInterface1.png" alt="" />
+                            <img src="/images/userInterface5.png" alt="" />
                             <button>End Discussion</button>
                         </div>
                         <div className={styles.feature5__smallSec}>
