@@ -26,20 +26,20 @@ function CourseDetail(props) {
         reviewOut: 5,
         comments: [
             {
-                imageSource: '/images/userInterface1.png',
+                imageSource: 'images/userInterface1.png',
                 commenterName: 'ahmed',
                 description:'Class, launched less than a year ago by Blackboard co-founder Michael Chasen, integrates exclusively...',
                 id:1
             },
             {
-                imageSource: '/images/userInterface2.png',
+                imageSource: 'images/userInterface2.png',
                 commenterName: 'ahmed',
                 description: 'Class, launched less than a year ago by Blackboard co-founder Michael Chasen, integrates exclusively...',
                 id:2
 
             },
             {
-                imageSource: '/images/userInterface3.png',
+                imageSource: 'images/userInterface3.png',
                 commenterName: 'ahmed',
                 description: 'Class, launched less than a year ago by Blackboard co-founder Michael Chasen, integrates exclusively...',
                 id:3
@@ -52,7 +52,7 @@ function CourseDetail(props) {
             <Header />
             <div className={styles.courseDetail__container}>
                 <div className={styles.courseDetail__mainImage}>
-                    <img src="/images/teacher.png" alt="" />
+                    <img src="images/teacher.png" alt="" />
                 </div>
                 <div className={styles.courseDetail__product}>
                 <ReviewCard card={card1}/>

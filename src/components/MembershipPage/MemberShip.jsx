@@ -109,28 +109,28 @@ export default function MemberShip() {
           <div className={styles.boxes}>
             <div className={styles.box}>
               <div className={styles.image}>
-                <img src='/images/account-image.png' />
+                <img src='images/account-image.png' />
               </div>
               <h3>Bulkin Simons</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod</p>
             </div>
             <div className={styles.box}>
               <div className={styles.image}>
-                <img src='/images/account-image.png' />
+                <img src='images/account-image.png' />
               </div>
               <h3>Bulkin Simons</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod</p>
             </div>
             <div className={styles.box}>
               <div className={styles.image}>
-                <img src='/images/account-image.png' />
+                <img src='images/account-image.png' />
               </div>
               <h3>Bulkin Simons</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod</p>
             </div>
             <div className={styles.box}>
               <div className={styles.image}>
-                <img src='/images/account-image.png' />
+                <img src='images/account-image.png' />
               </div>
               <h3>Bulkin Simons</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod</p>
@@ -148,13 +148,13 @@ export default function MemberShip() {
       <div className={styles.apply}>
         <div className={styles.boxes}>
           <div className={styles.box}>
-            <img src='/images/summary.png' />
+            <img src='images/summary.png' />
             <h3>Become a teacher</h3>
             <p>Class, launched less than a year ago by Blackboard co-founder Michael Chasen, integrates exclusively...</p>
             <button>Apply a Teacher</button>
           </div>
           <div className={styles.box}>
-            <img src='/images/summary.png' />
+            <img src='images/summary.png' />
             <h3>Become a teacher</h3>
             <p>Class, launched less than a year ago by Blackboard co-founder Michael Chasen, integrates exclusively...</p>
             <button>Apply a Teacher</button>

@@ -5,7 +5,7 @@ function SummaryCard(props) {
         <div className={styles.summaryCard}>
             <h2>Summary</h2>
             <div className={styles.summaryCard__card}>
-                <img src="/images/confident-teacher-explaining-lesson.png" alt="" />
+                <img src="images/confident-teacher-explaining-lesson.png" alt="" />
                 <div>
                     <h3>adipising elit, sed do eiusmod tempor</h3>
                     <p>Lorem ipsum dollar...</p>
@@ -13,7 +13,7 @@ function SummaryCard(props) {
                 </div>
             </div>
             <div className={styles.summaryCard__card}>
-                <img src="/images/confident-teacher-explaining-lesson.png" alt="" />
+                <img src="images/confident-teacher-explaining-lesson.png" alt="" />
                 <div>
                     <h3>adipising elit, sed do eiusmod tempor</h3>
                     <p>Lorem ipsum dollar...</p>

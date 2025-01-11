@@ -1,9 +1,9 @@
 .instructor {
-    background-image: url('/images/instructor.png');
+    background-image: url('images/instructor.png');
 }
 
 .student {
-    background-image: url('/images/students.png');
+    background-image: url('images/students.png');
 }
 .instructor button {
     background-color:  transparent;
