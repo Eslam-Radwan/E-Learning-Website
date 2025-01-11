@@ -1,5 +1,4 @@
 import { createRoot } from 'react-dom/client'
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
@@ -26,33 +25,3 @@ createRoot(document.getElementById('root')).render(
     </Routes>
   </BrowserRouter>
 );
-
-// const router = createBrowserRouter([
-//   {
-//     path: "/",
-//     element: <Login />,
-//   },
-//   {
-//     path: "landing",
-//     element: <Landing />,
-//   },
-//   {
-//     path: "courses", 
-//     element: <Course />
-//   },
-//   {
-//     path: "blog", 
-//     element: <Blog />
-//   },
-//   {
-//     path: "membership", 
-//     element: <MemberShip />
-//   },
-// ]);
-
-
-// createRoot(document.getElementById('root')).render(
-//   <BrowserRouter basename="/E-Learning-Website/">
-//   <RouterProvider router={router} />
-//   </BrowserRouter>
-// );
