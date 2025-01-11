@@ -40,7 +40,7 @@ const router = createBrowserRouter([
 
 
 createRoot(document.getElementById('root')).render(
-    // <BrowserRouter basename="/E-Learning-Website">
+  <StrictMode>
     <RouterProvider router={router} />
-    //  </BrowserRouter>
-)
+  </StrictMode>
+);
