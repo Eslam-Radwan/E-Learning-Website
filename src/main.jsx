@@ -14,9 +14,8 @@ import BlogDetial from './components/BlogDetailPage/BlogDetail.jsx'
 import MemberShip from './components/MembershipPage/MemberShip.jsx'
 import Course from './components/CoursePage/Course.jsx'
 
-
-const Main = () => (
-  <BrowserRouter>
+createRoot(document.getElementById('root')).render(
+  <BrowserRouter basename="/E-Learning-Website/">
     <Routes>
       <Route path="/" element={<Login />} />
       <Route path="/landing" element={<Landing />} />
@@ -26,5 +25,3 @@ const Main = () => (
     </Routes>
   </BrowserRouter>
 );
-
-createRoot(document.getElementById('root')).render(<Main />);
