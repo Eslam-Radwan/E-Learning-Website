@@ -16,7 +16,7 @@ import Course from './components/CoursePage/Course.jsx'
 
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename="/E-Learning-Website/"> {/* Set the base URL */}
+  <BrowserRouter basename="/E-Learning-Website/"> 
     <Routes>
       <Route path="/" element={<Login />} />
       <Route path="/landing" element={<Landing />} />

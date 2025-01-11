@@ -15,7 +15,7 @@ function Header(props) {
         <header className={styles.landing__header}>
             <div className={styles.landing__header__container}>
                 <div className={styles.landing__header__navBar}>
-                    <img src="/images/icons/logo.png" alt="" />
+                    <img src="images/icons/logo.png" alt="" />
                     {/* <div className={styles.spacer}></div> */}
                     <ul >
                         <div className={styles.landing__header__links}>
@@ -37,7 +37,7 @@ function Header(props) {
                         <label htmlFor="playButton">Watch how it works</label>
                     </div>
                     <div className={styles.rightSec}>
-                        <img src="/images/lovely-teenage-girl.png" alt="" />
+                        <img src="images/lovely-teenage-girl.png" alt="" />
                         <div className={styles.cards}>
                             <div className={`${styles.analysisCard} ${styles.card}`}>
                                 <MdBarChart />
