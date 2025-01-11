@@ -15,32 +15,16 @@ import MemberShip from './components/MembershipPage/MemberShip.jsx'
 import Course from './components/CoursePage/Course.jsx'
 
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Login />,
-  },
-  {
-    path: "landing",
-    element: <Landing />,
-  },
-  {
-    path: "courses", 
-    element: <Course />
-  },
-  {
-    path: "blog", 
-    element: <Blog />
-  },
-  {
-    path: "membership", 
-    element: <MemberShip />
-  },
-]);
-
-
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <RouterProvider router={router} />
-  </StrictMode>
+const Main = () => (
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Login />} />
+      <Route path="/landing" element={<Landing />} />
+      <Route path="/courses" element={<Course />} />
+      <Route path="/blog" element={<Blog />} />
+      <Route path="/membership" element={<MemberShip />} />
+    </Routes>
+  </BrowserRouter>
 );
+
+createRoot(document.getElementById('root')).render(<Main />);
