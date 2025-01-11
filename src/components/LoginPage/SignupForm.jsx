@@ -25,9 +25,9 @@ function SignupForm(props) {
     }
     function handleSubmit(e) {
         e.preventDefault();
-        console.log("Sunmitiing");
+        // console.log("Sunmitiing");
         
-        navigate("/landing"); 
+        navigate("/"); 
     }
     return (
         <>

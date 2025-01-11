@@ -7,7 +7,7 @@ export default function Header() {
       <img src='images/icon.png' />
       <div className={styles.wrap}>
         <ul>
-          <li><Link className={styles.link} to='/landing'>Home</Link></li>
+          <li><Link className={styles.link} to='/'>Home</Link></li>
           <li><Link className={styles.link} to='/courses'>Courses</Link></li>
           <li><Link className={styles.link} to='/blog'>Blog</Link></li>
           <li><Link className={styles.link} to='/membership'>MemberShip</Link></li>

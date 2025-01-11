@@ -22,7 +22,7 @@ function LoginForm(props) {
     }
     function handleSubmit(e) {
         e.preventDefault();
-        navigate("/landing");
+        navigate("/");
     }
     return (
         <>

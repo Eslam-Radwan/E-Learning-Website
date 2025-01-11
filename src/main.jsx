@@ -1,6 +1,8 @@
 import { createRoot } from 'react-dom/client'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-
+import {
+  createBrowserRouter,
+  RouterProvider, Route,} from "react-router-dom"; import React from "react";
+import ReactDOM from "react-dom/client";
 
 import './index.css'
 import Landing from './components/LandingPage/Landing.jsx'
@@ -10,34 +12,33 @@ import MemberShip from './components/MembershipPage/MemberShip.jsx'
 import Course from './components/CoursePage/Course.jsx'
 
 
+
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Login />,
+    element: <Landing />, // Landing page as the main entry point
   },
   {
-    path: "landing",
-    element: <Landing />,
+    path: "/login",
+    element: <Login />, // Login page
   },
   {
-    path: "courses",
-    element: <Course />
+    path: "/blog",
+    element: <Blog />, // Blog page
   },
   {
-    path: "blog",
-    element: <Blog />
+    path: "/membership",
+    element: <MemberShip />, // Membership page
   },
   {
-    path: "membership",
-    element: <MemberShip />
+    path: "/courses",
+    element: <Course />, // Course page
   },
 ]);
 
-
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <BrowserRouter basename='/E-Learning-Website/'>
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
     <RouterProvider router={router} />
-    </BrowserRouter>
-  </StrictMode>,
-)
+  </React.StrictMode>
+);
+

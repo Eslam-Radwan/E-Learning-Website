@@ -9,7 +9,7 @@ import { Link, useNavigate } from 'react-router-dom';
 function Header(props) {
     const navigate = useNavigate();
     function handleClick(e){
-        navigate('/')
+        navigate('/login')
     }
     return (
         <header className={styles.landing__header}>
@@ -19,7 +19,7 @@ function Header(props) {
                     {/* <div className={styles.spacer}></div> */}
                     <ul >
                         <div className={styles.landing__header__links}>
-                        <li><Link className={styles.link} to='/landing'>Home</Link></li>
+                        <li><Link className={styles.link} to='/'>Home</Link></li>
                         <li><Link className={styles.link} to='/courses'>Courses</Link></li>
                         <li><Link className={styles.link} to='/blog'>Blog</Link></li>
                         <li><Link className={styles.link} to='/membership'>MemberShip</Link></li>
