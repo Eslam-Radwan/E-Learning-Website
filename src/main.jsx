@@ -14,32 +14,45 @@ import MemberShip from './components/MembershipPage/MemberShip.jsx'
 import Course from './components/CoursePage/Course.jsx'
 
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Login />,
-  },
-  {
-    path: "landing",
-    element: <Landing />,
-  },
-  {
-    path: "courses", 
-    element: <Course />
-  },
-  {
-    path: "blog", 
-    element: <Blog />
-  },
-  {
-    path: "membership", 
-    element: <MemberShip />
-  },
-]);
-
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename="/E-Learning-Website/">
-  <RouterProvider router={router} />
+  <BrowserRouter basename="/E-Learning-Website/"> {/* Set the base URL */}
+    <Routes>
+      <Route path="/" element={<Login />} />
+      <Route path="/landing" element={<Landing />} />
+      <Route path="/courses" element={<Course />} />
+      <Route path="/blog" element={<Blog />} />
+      <Route path="/membership" element={<MemberShip />} />
+    </Routes>
   </BrowserRouter>
 );
+
+// const router = createBrowserRouter([
+//   {
+//     path: "/",
+//     element: <Login />,
+//   },
+//   {
+//     path: "landing",
+//     element: <Landing />,
+//   },
+//   {
+//     path: "courses", 
+//     element: <Course />
+//   },
+//   {
+//     path: "blog", 
+//     element: <Blog />
+//   },
+//   {
+//     path: "membership", 
+//     element: <MemberShip />
+//   },
+// ]);
+
+
+// createRoot(document.getElementById('root')).render(
+//   <BrowserRouter basename="/E-Learning-Website/">
+//   <RouterProvider router={router} />
+//   </BrowserRouter>
+// );
