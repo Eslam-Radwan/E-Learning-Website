@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './Header/LandingHeader';
 import About1 from './About1/About1';
 import About2 from './About2/About2';
-import WhatIsTotc from './WhatISTotc/WhatISTotc';
+import WhatIsTotc from './WhatIsTotc/WhatIsTotc';
 import OurFeatures from './OurFeatures/OurFeatures';
 import Testimonial from './Testimonial/Test';
 import Footer from '../MainFooter/Footer';
